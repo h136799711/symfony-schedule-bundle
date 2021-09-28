@@ -1,33 +1,30 @@
 {
-    "name": "m-adamski/symfony-schedule-bundle",
-    "description": "Schedule Bundle for Symfony",
+    "name": "dbh/symfony-schedule-bundle",
+    "description": "clone from m-adamski/symfony-schedule-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Maciej Adamski",
-            "email": "m.adamski@ideacode.pl"
+            "name": "dbh",
+            "email": ""
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2",
-        "dragonmantank/cron-expression": "^2.3",
-        "symfony/console": "^5.0",
-        "symfony/framework-bundle": "^5.0",
-        "symfony/lock": "^5.0"
+        "php": "^7.2|^8.0",
+        "dragonmantank/cron-expression": "3.1.*",
+        "symfony/console": "5.3.*",
+        "symfony/framework-bundle": "5.3.*",
+        "symfony/lock": "5.3.*"
     },
     "config": {
         "sort-packages": true
     },
     "autoload": {
         "psr-4": {
-            "Adamski\\Symfony\\ScheduleBundle\\": "src/"
+            "Dbh\\Symfony\\ScheduleBundle\\": "src/"
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
     }
 }

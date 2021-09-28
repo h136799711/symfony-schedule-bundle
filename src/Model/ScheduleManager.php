@@ -1,6 +1,6 @@
 <?php
 
-namespace Adamski\Symfony\ScheduleBundle\Model;
+namespace Dbh\Symfony\ScheduleBundle\Model;
 
 class ScheduleManager implements ManagerInterface {
 

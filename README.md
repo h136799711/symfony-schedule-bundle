@@ -1,27 +1,28 @@
+# JUST FOR PERSONAL USE
+
 # Schedule Bundle for Symfony
 
 Bundle for simplifying operations with CRON jobs.
 
-Version 2.x is no longer compatible with Symfony version 4.x. In this case, use version 1.x
 
 ## Installation
 
 This Bundle can be installed by Composer:
 
 ```
-$ composer require m-adamski/symfony-schedule-bundle
+$ composer require Dbh/symfony-schedule-bundle
 ```
 
 ## How to use it?
 
 Bundle provide functionality to manage CRON jobs by configuration from specified file.
-We need to create class implementing ``Adamski\Symfony\ScheduleBundle\Model\ManagerInterface`` interface.
+We need to create class implementing ``Dbh\Symfony\ScheduleBundle\Model\ManagerInterface`` interface.
 
 ```(php)
 namespace App\Model;
 
-use Adamski\Symfony\ScheduleBundle\Model\ManagerInterface;
-use Adamski\Symfony\ScheduleBundle\Model\Schedule;
+use Dbh\Symfony\ScheduleBundle\Model\ManagerInterface;
+use Dbh\Symfony\ScheduleBundle\Model\Schedule;
 
 class ScheduleManager implements ManagerInterface {
 

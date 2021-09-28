@@ -1,6 +1,6 @@
 <?php
 
-namespace Adamski\Symfony\ScheduleBundle;
+namespace Dbh\Symfony\ScheduleBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

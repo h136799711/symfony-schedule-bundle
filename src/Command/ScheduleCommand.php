@@ -1,10 +1,10 @@
 <?php
 
-namespace Adamski\Symfony\ScheduleBundle\Command;
+namespace Dbh\Symfony\ScheduleBundle\Command;
 
-use Adamski\Symfony\ScheduleBundle\DependencyInjection\ScheduleExtension;
-use Adamski\Symfony\ScheduleBundle\Model\ManagerInterface;
-use Adamski\Symfony\ScheduleBundle\Model\Schedule;
+use Dbh\Symfony\ScheduleBundle\DependencyInjection\ScheduleExtension;
+use Dbh\Symfony\ScheduleBundle\Model\ManagerInterface;
+use Dbh\Symfony\ScheduleBundle\Model\Schedule;
 use DateTime;
 use InvalidArgumentException;
 use Symfony\Component\Console\Command\Command;
@@ -68,7 +68,7 @@ class ScheduleCommand extends Command {
         } else {
             throw new InvalidArgumentException(sprintf("It looks like there is already registered service under the '%s' name", ScheduleExtension::$serviceName));
         }
-        
+
         return 0;
     }
 

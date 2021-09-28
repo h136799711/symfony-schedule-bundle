@@ -1,6 +1,6 @@
 <?php
 
-namespace Adamski\Symfony\ScheduleBundle\DependencyInjection;
+namespace Dbh\Symfony\ScheduleBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
